@@ -21,11 +21,11 @@ to improve diagnosis by providing radiologists with instruments
 that facilitate quicker and more precise tumour evaluations.
 
 ## Data Description
-The dataset is curated from the brain imaging dataset in http://medicaldecathlon.com. To save the storage and reduce the computational cost for this tutorial, we extract 2D image slices from T1-Gd contrast enhanced 3D brain volumes and downsample the images.
+The dataset is curated from the brain imaging dataset in http://medicaldecathlon.com.
 The dataset consists of a training set and a test set. Each image is of dimension 120 x 120, with a corresponding label map of the same dimension. There are four number of classes in the label map:
 
-0: background
-1: edema
-2: non-enhancing tumour
-3: enhancing tumour
+- 0: background
+- 1: edema
+- 2: non-enhancing tumour
+- 3: enhancing tumour
 
